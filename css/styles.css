@@ -54,7 +54,8 @@ button {
 }
 .nav-link-header:hover,
 .list-address-tel-mail:hover,
-.nav-link-header:focus .list-address-tel-mail:focus {
+.nav-link-header:focus,
+.list-address-tel-mail:focus {
   color: #404bbf;
 }
 
