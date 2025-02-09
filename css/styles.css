@@ -3,7 +3,7 @@ body {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
-  color: #ffffff;
+  background-color: #ffffff;
 }
 
 a {
@@ -23,7 +23,7 @@ button {
 .section-header {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -54,13 +54,10 @@ button {
 }
 .nav-link-header:hover,
 .list-address-tel-mail:hover,
-.nav-link-header-studio :hover {
+.nav-link-header:focus .list-address-tel-mail:focus {
   color: #404bbf;
 }
 
-.list-address-tel-mail :focus {
-  color: #404bbf;
-}
 .nav-webstudio-list {
 }
 .navigation-webstudio-list {
